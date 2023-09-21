@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+/*h2 {
+	text-align: center;
+	padding: 25px;
+}*/
+
+#albumtitle {
+	background-image: url('album-cover.jpg');
+	padding: 38px;
+	background-position: center;
+/*	background-size: cover;*/
+	border-radius: 1%;
+	height: 20%;
+	color: white;
+	text-align: center;
+	font-size: 122px;
+	font-family: 'Zeyada', cursive;
+}
+
+#blinking {
+	animation: blinker 4s linear infinite;
+}
+
+
+#artistname {
+	font-family: times new roman;
+	font-size: 300%;
+	font-weight: bold;
+
+}
+
+#songnames {
+	font-size: 30px;
+	padding-top: 30px;
+
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
